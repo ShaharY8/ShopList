@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ProductFragment"
+    android:background="#C3C0C0"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/lnProdactList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="22dp"
+            android:text="שם המוצר"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/etProduct"
+            android:layout_width="364dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/round_button"
+            android:text="+"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+</FrameLayout>

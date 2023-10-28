@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="#AEAEAE"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="אודות החברה"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:background="#474646"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                                AnyList \n  היא אחת האפליקציות הפופולריות לניהול רשימת הקניות. ונועדה בעיקר למשתמשים פרטיים שצריכים סדר ברשימת הקניות הרגילה שלהם. "
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_width="115dp"
+        android:layout_height="62dp"
+        android:layout_gravity="right"
+        android:text="חזור"
+        />
+</LinearLayout>

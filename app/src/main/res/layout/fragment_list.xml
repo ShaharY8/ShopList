@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ListFragment"
+    android:background="#94EDBE78"
+    android:id="@+id/ListFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="651dp"
+        android:orientation="vertical"
+        android:id="@+id/mainLn"
+        >
+
+        <LinearLayout
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:background="@drawable/black_outline"
+            >
+
+            <TextView
+                android:layout_width="159dp"
+                android:layout_height="45dp"
+                android:gravity="right"
+                android:text="נעשה/לא נעשה"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="159dp"
+                android:layout_height="45dp"
+                android:gravity="right"
+                android:text="שם המוצר"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:orientation="horizontal"-->
+
+<!--            >-->
+
+<!--            <CheckBox-->
+<!--                android:layout_width="159dp"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:background="@color/white"-->
+<!--                android:textSize="20dp"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="159dp"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:background="@color/white"-->
+<!--                android:gravity="center"-->
+<!--                android:text="שם המוצר"-->
+<!--                android:textSize="20dp"-->
+
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="410dp"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:gravity="center"-->
+<!--            android:text="שם המוצר"-->
+<!--            android:textSize="20dp"-->
+
+<!--            />-->
+    </LinearLayout>
+
+</FrameLayout>

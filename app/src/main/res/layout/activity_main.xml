@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:textDirection="rtl"
+    android:background="#C3C0C0"
+    >
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.shoplist.ProductFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_marginTop="40dp"
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.shoplist.ListFragment"
+        android:layout_width="334dp"
+        android:layout_height="346dp"
+        android:layout_gravity="center"
+    />
+
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_width="115dp"
+        android:layout_height="62dp"
+        android:layout_gravity="right"
+        android:text="אודות"
+        />
+
+
+</LinearLayout>
